@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+}
+
+.calculate {
+  display: flex;
+  flex-direction: column;
+  /*background-color: green;*/
+}
+
+.itemCalc {
+  margin-top: 40px;
+}
+.select {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  /*background-color: crimson;*/
+}
+
+.itemRes {
+  align-items: center;
+  margin-top: 40px;
+}
+
+.error {
+  color: crimson;
+}
